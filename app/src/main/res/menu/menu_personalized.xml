@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/cart_menu"
+        android:title="Cart"
+        android:icon="@drawable/ic_baseline_shopping_cart"
+        app:showAsAction="always"/>
+    <item android:id="@+id/preference_menu"
+        android:title="Preference"
+        app:showAsAction="never"/>
+    <item android:id="@+id/options_menu"
+        android:title="Options"
+        app:showAsAction="never"/>
+    <item android:id="@+id/about_menu"
+        android:title="About"
+        app:showAsAction="never"/>
 </menu>
